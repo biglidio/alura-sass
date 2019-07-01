@@ -81,50 +81,6 @@ header .container {
   box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
   font-weight: bold; }
 
-/** Sobre **/
-.sobre {
-  background: #ebebeb; }
-
-.duas-colunas {
-  -webkit-column-count: 2;
-  -moz-column-count: 2;
-  column-count: 2;
-  columns: 1; }
-
-.duas-colunas h3 {
-  margin: 0; }
-
-.sobre p {
-  font: .9em/1.8 sans-serif; }
-
-.sobre p:first-child {
-  margin-bottom: 3em; }
-
-.plataformas {
-  padding: 0; }
-
-.plataformas li {
-  display: inline-block;
-  width: 50px;
-  height: 60px;
-  text-indent: -9999px;
-  overflow: hidden;
-  background-repeat: no-repeat;
-  background-position: center;
-  margin: 1em 1.5em 0 0; }
-
-.plataformas li:nth-child(1) {
-  background-image: url(../imagens/logo-apple.png); }
-
-.plataformas li:nth-child(2) {
-  background-image: url(../imagens/logo-android.png); }
-
-.plataformas li:nth-child(3) {
-  background-image: url(../imagens/logo-windows.png); }
-
-.plataformas li:nth-child(4) {
-  background-image: url(../imagens/logo-blackberry.png); }
-
 /** Planos **/
 .planos {
   background: #1e2c35; }
@@ -156,22 +112,6 @@ header .container {
   color: #c24c4b;
   font-size: 2.75em; }
 
-.itens-plano {
-  padding-left: 1.2em; }
-
-.itens-plano li {
-  font-size: 1em;
-  list-style: none;
-  border-bottom: 1px solid #acacac;
-  padding: .5em;
-  width: 14.8em; }
-
-.itens-plano li:last-child {
-  border: 0; }
-
-.itens-plano span {
-  float: right; }
-
 .plano button {
   background: #c24c4b;
   border: 0;
@@ -195,6 +135,19 @@ header .container {
 
 .icone-x {
   background-position: -33px -5px; }
+
+.itens-plano {
+  padding-left: 1.2em; }
+  .itens-plano li {
+    font-size: 1em;
+    list-style: none;
+    border-bottom: 1px solid #acacac;
+    padding: .5em;
+    width: 14.8em; }
+    .itens-plano li:last-child {
+      border: 0; }
+  .itens-plano span {
+    float: right; }
 
 /** Blog **/
 .blog {
