@@ -17,3 +17,7 @@
 
 
 @import "compass/css3";
+
+@function multiplica-tamanho($multiplicador) {
+    @return $multiplicador * $tamanho-padrao;
+}

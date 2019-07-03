@@ -27,8 +27,8 @@ footer {
     z-index: -1;
   }
   footer .container {
-    padding-top: 2 * $tamanho-padrao;
-    height: 6.5 * $tamanho-padrao;
+    padding-top: multiplica-tamanho(2);
+    height: multiplica-tamanho(6.5);
     position: relative;
   }
   
